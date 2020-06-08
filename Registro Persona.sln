@@ -5,6 +5,23 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registro Persona", "Registro Persona\Registro Persona.csproj", "{35435D71-6B9A-4F98-8642-46C45EFCFF1F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{BE0FF9EF-FE7E-46AD-8C96-027C9EC5DD3C}"
+	ProjectSection(SolutionItems) = preProject
+		CuentasBLL.cs = CuentasBLL.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{023B5925-A5B3-4383-B605-8D4975E8F580}"
+	ProjectSection(SolutionItems) = preProject
+		Contexto.cs = Contexto.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DATA", "DATA", "{0A46A4A2-7C9C-4268-A767-F983D16EF991}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entidades", "Entidades", "{A9D8CD49-E92F-48E9-AE5C-28F166E9E2CA}"
+	ProjectSection(SolutionItems) = preProject
+		Cuenta.cs = Cuenta.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
